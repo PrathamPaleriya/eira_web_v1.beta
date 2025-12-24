@@ -6,6 +6,7 @@ import Privacy from './components/Privacy'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
 import Snow from './components/Snow'
+import FloatingAudio from './components/FloatingAudio'
 import './App.css'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Privacy />
       <FAQ />
       <Footer />
+      <FloatingAudio />
     </div>
   )
 }
