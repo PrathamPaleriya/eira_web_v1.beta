@@ -25,7 +25,7 @@ const CTASection = () => {
                     </p>
                 </motion.div>
 
-                <div className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-24 w-full">
+                <div className="flex flex-col md:flex-row items-center justify-center gap-7 md:gap-24 w-full">
 
                     {/* WhatsApp Button - Left (Desktop) / Second (Mobile) */}
                     <motion.div
