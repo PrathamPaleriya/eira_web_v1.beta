@@ -5,11 +5,13 @@ import Features from './components/Features'
 import Privacy from './components/Privacy'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
+import Snow from './components/Snow'
 import './App.css'
 
 function App() {
   return (
     <div className="min-h-screen bg-white relative selection:bg-purple-100">
+      <Snow />
       <Hero />
       <Intro />
       <Features />
