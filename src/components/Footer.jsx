@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../assets/eira_logo_light.svg';
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 const Footer = () => {
    return (
@@ -12,7 +12,7 @@ const Footer = () => {
                {/* Top Section */}
                <div className="flex flex-col md:flex-row justify-between items-start mb-20 md:mb-0">
                   <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-none  mb-12 md:mb-0">
-                    Safe Space for your <br /> feelings
+                     Safe Space for your <br /> feelings
                   </h2>
 
                   <img src={logo} alt="Eira Logo" className="h-8 md:h-12 opacity-90" />
@@ -29,7 +29,12 @@ const Footer = () => {
 
                      {/* Links */}
                      <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 md:gap-12 text-sm md:text-base font-medium">
-                        <Link to="/contact" className="hover:opacity-80 transition-opacity">contact us</Link>
+                        <a
+                           href="mailto:care@meeteira.com?subject=source:web%20-%20your%20subject"
+                           className="hover:opacity-80 transition-opacity"
+                        >
+                           contact us
+                        </a>
                         <Link to="/privacy-policy" className="hover:opacity-80 transition-opacity">privacy policy</Link>
                         <Link to="/terms-and-conditions" className="hover:opacity-80 transition-opacity">terms & conditions</Link>
                      </div>
@@ -46,9 +51,9 @@ const Footer = () => {
                <div className="mb-2 md:mb-0">
                   copyright &copy; 2025, all right reserved.
                </div>
-               <div>
+               <a href="https://athams.com" target="_blank" rel="noopener noreferrer">
                   by <span className="text-white font-medium">Athams</span>
-               </div>
+               </a>
             </div>
          </div>
       </footer>
