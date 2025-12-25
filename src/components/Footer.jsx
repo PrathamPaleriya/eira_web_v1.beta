@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../assets/eira_logo_light.svg';
+import {Link} from "react-router-dom"
 
 const Footer = () => {
    return (
@@ -28,9 +29,9 @@ const Footer = () => {
 
                      {/* Links */}
                      <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 md:gap-12 text-sm md:text-base font-medium">
-                        <a href="#" className="hover:opacity-80 transition-opacity">contact us</a>
-                        <a href="#" className="hover:opacity-80 transition-opacity">privacy policy</a>
-                        <a href="#" className="hover:opacity-80 transition-opacity">terms & conditions</a>
+                        <Link to="/contact" className="hover:opacity-80 transition-opacity">contact us</Link>
+                        <Link to="/privacy-policy" className="hover:opacity-80 transition-opacity">privacy policy</Link>
+                        <Link to="/terms-and-conditions" className="hover:opacity-80 transition-opacity">terms & conditions</Link>
                      </div>
 
                   </div>

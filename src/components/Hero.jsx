@@ -125,9 +125,9 @@ const Hero = () => {
             }
           }}
         >
-          <button className="bg-white hover:bg-white/100 text-[#726DC5] px-14 py-3 rounded-full text-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer min-w-[160px]">
+          <a href="https://wa.me/message/A5232GUJTZAGK1" target='_blank' className="bg-white hover:bg-white/100 text-[#726DC5] px-14 py-3 rounded-full text-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer min-w-[160px]">
             Talk to Eira
-          </button>
+          </a>
           <div className='text-sm mt-2 text-white'>( currently in beta )</div>
         </motion.div>
 

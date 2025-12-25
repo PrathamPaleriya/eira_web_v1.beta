@@ -36,7 +36,7 @@ const CTASection = () => {
                         className="order-2 md:order-1"
                     >
                         <a
-                            href="#" 
+                            href="https://wa.me/message/A5232GUJTZAGK1"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="group flex items-center gap-3 px-8 py-3 bg-green-500 hover:bg-green-600 text-white rounded-full transition-all shadow-lg hover:shadow-green-500/30  justify-center"
@@ -76,7 +76,7 @@ const CTASection = () => {
                         className="order-3 md:order-3"
                     >
                         <a
-                            href="#" // Replace with actual Telegram Link
+                            href="https://t.me/itsEiraBot?start=hi" // Replace with actual Telegram Link
                             target="_blank"
                             rel="noopener noreferrer"
                             className="group flex items-center gap-3 px-8 py-3 bg-sky-600 hover:bg-sky-700 text-white rounded-full transition-all shadow-lg hover:shadow-blue-300/30  justify-center"
