@@ -49,7 +49,7 @@ const Footer = () => {
          <div className="w-full bg-black text-white px-6 py-4">
             <div className="max-w-[90%] mx-auto flex flex-col md:flex-row justify-between items-center text-xs md:text-sm text-neutral-400">
                <div className="mb-2 md:mb-0">
-                  copyright &copy; 2025, all right reserved.
+                  copyright &copy; {new Date().getFullYear()}, all right reserved.
                </div>
                <a href="https://athams.com" target="_blank" rel="noopener noreferrer">
                   by <span className="text-white font-medium">Athams</span>
